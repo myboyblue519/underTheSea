@@ -1,0 +1,46 @@
+@use "variables" as *;
+
+
+.monthProfile {
+    height: 70vh;
+    // display: flex;
+    // img {
+    //     border: 25px solid $primaryColor;
+    // }
+
+    .profileContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .monthFish {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            position: relative;
+            left: -30px;
+            top: 30px;
+
+            img {
+                box-shadow: 20px 20px #86e0f9;
+            }
+
+        }
+
+        .monthText {
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            width: 50%;
+            display: flex;
+            margin-left: 150px;
+
+            button {
+                margin: 0;
+            }
+
+
+        }
+
+    }
+}

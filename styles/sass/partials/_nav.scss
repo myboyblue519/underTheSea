@@ -1,0 +1,38 @@
+@use "variables" as *;
+
+.navBar {
+    height: 15%;
+    z-index: 10;
+    display: flex;
+    color: $white;
+    justify-content: end;
+
+    li {
+        list-style: none;
+
+        a {
+            font-size: 1rem;
+        }
+    }
+}
+
+.toggleButton {
+    display: none;
+    z-index: 10;
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+
+}
+
+.toggleButton:hover {
+    background-color: rgba(0, 0, 0, 0.123);
+}
+
+
+.navBarLinks {
+    ul {
+        display: flex;
+    }
+
+}

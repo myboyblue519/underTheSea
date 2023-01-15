@@ -1,0 +1,21 @@
+@use "variables" as *;
+
+
+.indexMain {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .whatIsUnder {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        margin-bottom: 0;
+        font-size: 2rem;
+    }
+}

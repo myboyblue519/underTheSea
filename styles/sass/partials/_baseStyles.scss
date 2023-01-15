@@ -1,0 +1,121 @@
+@use "variables" as *;
+
+/* _baseStyles.scss */
+header {
+  h2 {
+    text-align: center;
+  }
+}
+
+.wrapper {
+  // max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+button {
+  font-size: .8rem;
+  font-weight: 100;
+  background-color: $primaryColor;
+  padding: 15px 45px;
+  border: none;
+  margin: 20px auto;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $primaryColor;
+    color: $white;
+  }
+
+  &:focus {
+    background-color: $primaryColor;
+    color: $white;
+  }
+}
+
+.indexMain,
+.connections,
+.monthProfile {
+  background-color: $tertiaryColor ;
+}
+
+.discover,
+.gallery {
+  background-color: $secondaryColor;
+
+}
+
+a {
+  color: $white;
+  text-decoration: none;
+  margin: 0 17px;
+
+  &:hover {
+    color: $primaryColor;
+  }
+
+  &:focus {
+    color: $primaryColor;
+  }
+
+
+
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+
+  // improperly nested, fix next time
+
+  .fa-solid {
+    color: $white;
+  }
+}
+
+html {
+  font-size: 125%;
+}
+
+body {
+  font-family: $bodyFont;
+  font-size: .8rem;
+  color: $white;
+}
+
+h1,
+h2,
+h3,
+h4,
+nav,
+button {
+  font-family: $headingFont;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 4.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  letter-spacing: .5rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+  letter-spacing: .5rem;
+}

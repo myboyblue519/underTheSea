@@ -1,0 +1,37 @@
+@use "variables" as *;
+
+@font-face {
+  font-family: Barlow;
+  src: url("../fonts/Barlow/Barlow-Bold.ttf");
+}
+
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato/Lato-Regular.ttf");
+}
+
+
+@media (min-width: 1300px) {
+  html {
+    font-size: 120%;
+  }
+}
+
+@media (min-width: 1600px) {
+  html {
+    font-size: 130%;
+  }
+}
+
+@media (min-width: 1900px) {
+  html {
+    font-size: 140%;
+  }
+}
+
+
+@media (min-width: 2200px) {
+  html {
+    font-size: 200%;
+  }
+}

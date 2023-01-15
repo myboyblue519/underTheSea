@@ -1,0 +1,12 @@
+@use "variables" as *;
+
+footer {
+    background-color: $primaryColor;
+    color: #000;
+    text-align: center;
+
+    p {
+        margin: 0;
+    }
+
+}

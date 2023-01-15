@@ -1,0 +1,195 @@
+@use "variables" as *;
+
+
+
+
+// @media (max-width: 1250px) {
+
+//     .discoverBox1,
+//     .profileContainer,
+//     .gallery,
+//     .monthProfile,
+//     .underSea,
+//     .discoverBox2 {
+//         flex-direction: column;
+//         height: auto;
+//     }
+
+//     .ourContact {
+//         flex-direction: column-reverse;
+//     }
+
+//     .goldfish,
+//     .heroImage {
+//         display: none;
+//     }
+
+//     .connectionsSub {
+//         flex-direction: row;
+//         height: auto;
+//     }
+
+//     .banner {
+//         height: 50vh;
+//     }
+
+//     h1 {
+//         font-size: 4rem;
+//     }
+
+//     h2 {
+//         font-size: 3rem;
+//     }
+
+//     body {
+//         width: 100%;
+//     }
+
+//     header {
+//         height: 50vh;
+
+//     }
+
+//     .discoverImage1 {
+//         position: relative;
+//         top: 0px;
+//         left: -30px;
+//     }
+
+//     .contactComments {
+//         width: 100%;
+//         position: unset;
+//         padding: 0 0px 0 45px;
+//     }
+
+//     .ourContact {
+//         margin: 0 20%;
+//     }
+
+//     .blog header {
+//         height: 35vh;
+//     }
+
+//     aside {
+//         img {
+//             display: none;
+//         }
+//     }
+// }
+
+// @media (max-width: 650px) {
+
+//     .blog {
+//         main {
+//             flex-direction: column;
+//         }
+
+//         aside {
+//             width: 90%;
+//         }
+//     }
+
+//     h2 {
+//         font-size: 2.7rem;
+
+//     }
+
+//     .contactComments {
+//         margin: 5px auto;
+//         padding: 0px 0px 0 36px;
+//     }
+// }
+
+// @media (max-width: 450px) {
+//     .monthText {
+//         margin-left: 0;
+//     }
+
+
+//     h1 {
+//         line-height: 3rem;
+//         font-size: 3.2rem;
+//         padding: 0;
+//     }
+
+//     h2 {
+//         font-size: 2.4rem;
+//         line-height: 2.5rem;
+
+//     }
+
+//     h3 {
+//         font-size: 1.6rem;
+//         letter-spacing: 0.2rem;
+//     }
+
+//     h4 {
+//         font-size: 1.2rem;
+//         letter-spacing: 0.4rem;
+//     }
+
+//     .connectionsSub div {
+//         width: 100%;
+//         padding: 35px 35px;
+//     }
+
+//     .discoverBox1 div,
+//     .discoverBox2 div {
+//         width: 100%;
+//         margin: 0;
+//     }
+
+//     .discoverImage1,
+//     .discoverImage2 {
+//         width: 100%;
+//         display: block;
+//         height: auto;
+//         position: unset;
+//     }
+
+//     .blog .blogIntro {
+//         width: 75%;
+//         margin-left: 45px;
+//         margin-top: 15px;
+//     }
+
+//     a {
+//         margin: 0 5px;
+//     }
+
+//     .monthFish,
+//     .discoverImage1,
+//     .discoverImage2 {
+//         img {
+//             box-shadow: none;
+//         }
+//     }
+
+//     .toggleButton {
+//         display: flex;
+//     }
+
+//     .navBarLinks {
+//         display: none;
+//         width: 100%;
+
+//         ul {
+//             flex-direction: column;
+//             width: 100%;
+//         }
+
+//         li {
+//             text-align: center;
+//         }
+
+//     }
+
+//     .navBarLinks.active {
+//         display: flex;
+//     }
+
+//     .navBar {
+//         flex-direction: column;
+//         align-items: flex-start;
+//     }
+// }
