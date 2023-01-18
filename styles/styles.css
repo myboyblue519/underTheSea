@@ -368,6 +368,7 @@ header .underTitle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 45%;
 }
 header .underTitle h1 {
   font-size: 6rem;
@@ -403,25 +404,10 @@ header .underTitle h1 {
           justify-content: flex-end;
 }
 .headerContent img {
-  width: 80%;
+  width: 55%;
   margin-top: 5%;
 }
 
-@media (min-width: 1600px) {
-  h1 {
-    border: 5px solid rebeccapurple;
-  }
-}
-@media (min-width: 1900px) {
-  h1 {
-    border: 5px solid green;
-  }
-}
-@media (min-width: 2200px) {
-  h1 {
-    border: 5px solid blue;
-  }
-}
 .navBar {
   height: 15%;
   z-index: 10;
@@ -723,16 +709,36 @@ footer p {
 }
 @media (min-width: 1600px) {
   html {
-    font-size: 130%;
+    font-size: 135%;
   }
 }
 @media (min-width: 1900px) {
   html {
-    font-size: 140%;
+    font-size: 150%;
   }
 }
 @media (min-width: 2200px) {
   html {
-    font-size: 200%;
+    font-size: 165%;
+  }
+}
+@media (min-width: 2500px) {
+  html {
+    font-size: 195%;
+  }
+}
+@media (min-width: 2700px) {
+  html {
+    font-size: 235%;
+  }
+}
+@media (min-width: 3230px) {
+  html {
+    font-size: 300%;
+  }
+}
+@media (min-width: 4200px) {
+  html {
+    font-size: 400%;
   }
 }

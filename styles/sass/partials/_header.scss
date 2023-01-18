@@ -5,6 +5,7 @@ header {
 
     .underTitle {
         display: flex;
+        width: 45%;
 
         h1 {
             font-size: 6rem;
@@ -42,7 +43,7 @@ header {
     justify-content: flex-end;
 
     img {
-        width: 80%;
+        width: 55%;
         margin-top: 5%;
     }
 
@@ -51,20 +52,14 @@ header {
 
 
 
-@media (min-width: 1600px) {
-    h1 {
-        border: 5px solid rebeccapurple;
-    }
-}
+@media (min-width: 1600px) {}
 
-@media (min-width: 1900px) {
-    h1 {
-        border: 5px solid green;
-    }
-}
+@media (min-width: 1900px) {}
 
-@media (min-width: 2200px) {
-    h1 {
-        border: 5px solid blue;
-    }
-}
+@media (min-width: 2200px) {}
+
+@media (min-width: 2500px) {}
+
+@media (min-width: 2700px) {}
+
+@media (min-width: 3200px) {}
