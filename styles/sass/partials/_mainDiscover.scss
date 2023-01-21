@@ -12,6 +12,7 @@
         button {
             background-color: $tertiaryColor;
             color: $white;
+            margin: 1rem 0;
         }
 
         div {
@@ -26,11 +27,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-
-        button {
-            margin: 0;
-        }
-
 
     }
 
@@ -52,7 +48,7 @@
         position: relative;
         bottom: 35px;
         left: 0%;
-        box-shadow: 35px 35px $primaryColor;
+        box-shadow: 1.75rem 1.75rem $primaryColor;
 
     }
 
@@ -63,7 +59,7 @@
         position: relative;
         top: 35px;
         right: 0%;
-        box-shadow: -35px 35px #86e0f9;
+        box-shadow: -1.75rem 1.75rem #86e0f9;
     }
 
     .connections {
@@ -71,22 +67,5 @@
         margin-bottom: 10px;
     }
 
-    @media (min-width: 1600px) {
-        html {
-            font-size: 130%;
-        }
-    }
 
-    @media (min-width: 1900px) {
-        html {
-            font-size: 140%;
-        }
-    }
-
-
-    @media (min-width: 2200px) {
-        html {
-            font-size: 150%;
-        }
-    }
 }

@@ -22,11 +22,11 @@ button {
   font-size: .8rem;
   font-weight: 100;
   background-color: $primaryColor;
-  padding: 15px 45px;
+  padding: .75rem 2.25rem;
   border: none;
-  margin: 20px auto;
+  margin: 1rem auto;
   cursor: pointer;
-  transition: 0.3s;
+  // transition: 0.3s;
 
   &:hover {
     background-color: $primaryColor;
