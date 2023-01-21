@@ -536,7 +536,7 @@ header .underTitle h1 {
   margin: 1.4rem auto;
 }
 .blogIntro .commentBox {
-  max-width: 60%;
+  max-width: 90%;
   margin: 10px auto;
 }
 .blogIntro .commentBox #name,
@@ -544,15 +544,15 @@ header .underTitle h1 {
   border: none;
   color: white;
   display: inline-block;
-  width: 40%;
-  height: 20px;
+  width: 43.5%;
+  height: 1REM;
   border-bottom: 2px solid #86e0f9;
   background-color: transparent;
 }
 .blogIntro .commentBox textarea {
   resize: none;
   display: block;
-  width: 50%;
+  width: 88%;
   border: 2px solid #86e0f9;
   background-color: transparent;
   color: white;

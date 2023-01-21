@@ -102,7 +102,7 @@
   }
 
   .commentBox {
-    max-width: 60%;
+    max-width: 90%;
     margin: 10px auto;
 
     #name,
@@ -110,8 +110,8 @@
       border: none;
       color: white;
       display: inline-block;
-      width: 40%;
-      height: 20px;
+      width: 43.5%;
+      height: 1REM;
       border-bottom: 2px solid $primaryColor;
       background-color: transparent;
     }
@@ -119,7 +119,7 @@
     textarea {
       resize: none;
       display: block;
-      width: 50%;
+      width: 88%;
       border: 2px solid $primaryColor;
       background-color: transparent;
       color: white;
