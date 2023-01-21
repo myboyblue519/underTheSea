@@ -193,3 +193,106 @@
 //         align-items: flex-start;
 //     }
 // }
+
+
+@media (min-width: 460px) {
+    header {
+        .underTitle {
+            h1 {
+                font-size: 4.8rem;
+            }
+        }
+
+    }
+}
+
+@media (min-width: 540px) {
+    header {
+        .underTitle {
+            h1 {
+                font-size: 5.4rem;
+            }
+        }
+
+    }
+}
+
+@media (min-width: 840px) {
+    header {
+        .underTitle {
+            h1 {
+                font-size: 7rem;
+            }
+        }
+    }
+
+    .headerContent {
+        flex-direction: row;
+    }
+
+    .navBar {
+        height: 15%;
+    }
+
+    html {
+        font-size: 100%;
+    }
+}
+
+@media (min-width: 1100px) {
+    html {
+        font-size: 110%;
+    }
+}
+
+@media (min-width: 1300px) {
+    html {
+        font-size: 120%;
+    }
+
+    .discover {
+        height: 119vh;
+    }
+}
+
+@media (min-width: 1600px) {
+    html {
+        font-size: 135%;
+    }
+}
+
+@media (min-width: 1900px) {
+    html {
+        font-size: 150%;
+    }
+}
+
+@media (min-width: 2200px) {
+    html {
+        font-size: 165%;
+    }
+}
+
+@media (min-width: 2500px) {
+    html {
+        font-size: 195%;
+    }
+}
+
+@media (min-width: 2700px) {
+    html {
+        font-size: 235%;
+    }
+}
+
+@media (min-width: 3230px) {
+    html {
+        font-size: 300%;
+    }
+}
+
+@media (min-width: 4200px) {
+    html {
+        font-size: 400%;
+    }
+}

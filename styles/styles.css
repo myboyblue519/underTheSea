@@ -103,6 +103,10 @@ h4 {
   letter-spacing: 0.5rem;
 }
 
+p {
+  line-height: 1.3rem;
+}
+
 .indexMain {
   height: 100vh;
   display: -webkit-box;
@@ -132,19 +136,22 @@ h4 {
 }
 .indexMain h2 {
   margin-bottom: 0;
-  font-size: 2rem;
+  font-size: 1.1rem;
 }
 
 .discover {
-  height: 120vh;
+  height: 135vh;
 }
 .discover .discoverBox1,
 .discover .discoverBox2 {
-  height: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .discover .discoverBox1 button,
 .discover .discoverBox2 button {
@@ -154,7 +161,7 @@ h4 {
 }
 .discover .discoverBox1 div,
 .discover .discoverBox2 div {
-  width: 43.6%;
+  width: 80%;
 }
 .discover .discoverContent,
 .discover .discoverContent2 {
@@ -213,7 +220,7 @@ h4 {
 }
 
 .connectionsSub {
-  height: 85vh;
+  height: 225vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -225,6 +232,10 @@ h4 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .connectionsSub .connectionsSub__info {
   display: -webkit-box;
@@ -245,12 +256,15 @@ h4 {
 .connectionsSub .connectionsSub__info h3 {
   margin-bottom: 0;
 }
+.connectionsSub .connectionsSub__info p {
+  line-height: 1.3rem;
+}
 
 .banner {
   background-image: url(../under-the-sea-assets/banner.jpg);
-  height: 65vh;
+  height: 45vh;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .monthProfile {
@@ -266,6 +280,11 @@ h4 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .monthProfile .profileContainer .monthFish {
   display: -webkit-box;
@@ -277,12 +296,15 @@ h4 {
   -ms-flex-line-pack: center;
       align-content: center;
   position: relative;
-  left: -30px;
-  top: 30px;
+  width: 60%;
 }
-.monthProfile .profileContainer .monthFish img {
-  -webkit-box-shadow: 20px 20px #86e0f9;
-          box-shadow: 20px 20px #86e0f9;
+.monthProfile .profileContainer .monthFish .fishSchool {
+  position: absolute;
+  top: -12rem;
+  left: -4rem;
+  -webkit-box-shadow: 1rem 1rem #86e0f9;
+          box-shadow: 1rem 1rem #86e0f9;
+  width: 100%;
 }
 .monthProfile .profileContainer .monthText {
   -webkit-box-orient: vertical;
@@ -295,14 +317,16 @@ h4 {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  width: 50%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 150px;
+}
+.monthProfile .profileContainer .monthText p {
+  line-height: 1.3rem;
 }
 .monthProfile .profileContainer .monthText button {
-  margin: 0;
+  margin: 1rem 0;
 }
 
 .gallery {
@@ -336,16 +360,16 @@ h4 {
 }
 
 header {
-  height: 100vh;
+  height: 90vh;
 }
 header .underTitle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 45%;
+  width: 100%;
 }
 header .underTitle h1 {
-  font-size: 6rem;
+  font-size: 4.4rem;
   padding: 0px 18% 0px;
 }
 
@@ -376,14 +400,18 @@ header .underTitle h1 {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .headerContent img {
-  width: 55%;
+  width: 100%;
   margin-top: 5%;
 }
 
 .navBar {
-  height: 15%;
+  height: 5%;
   z-index: 10;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -664,21 +692,44 @@ footer p {
   margin: 0;
 }
 
-.fa-brands, .fa-solid {
-  margin: 0 10px;
+@media (min-width: 460px) {
+  header .underTitle h1 {
+    font-size: 4.8rem;
+  }
 }
-
-@font-face {
-  font-family: Barlow;
-  src: url("../fonts/Barlow/Barlow-Bold.ttf");
+@media (min-width: 540px) {
+  header .underTitle h1 {
+    font-size: 5.4rem;
+  }
 }
-@font-face {
-  font-family: Lato;
-  src: url("../fonts/Lato/Lato-Regular.ttf");
+@media (min-width: 840px) {
+  header .underTitle h1 {
+    font-size: 7rem;
+  }
+  .headerContent {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .navBar {
+    height: 15%;
+  }
+  html {
+    font-size: 100%;
+  }
+}
+@media (min-width: 1100px) {
+  html {
+    font-size: 110%;
+  }
 }
 @media (min-width: 1300px) {
   html {
     font-size: 120%;
+  }
+  .discover {
+    height: 119vh;
   }
 }
 @media (min-width: 1600px) {
@@ -715,4 +766,16 @@ footer p {
   html {
     font-size: 400%;
   }
+}
+.fa-brands, .fa-solid {
+  margin: 0 10px;
+}
+
+@font-face {
+  font-family: Barlow;
+  src: url("../fonts/Barlow/Barlow-Bold.ttf");
+}
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato/Lato-Regular.ttf");
 }

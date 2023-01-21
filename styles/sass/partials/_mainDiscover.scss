@@ -1,13 +1,14 @@
 @use "variables" as *;
 
 .discover {
-    height: 120vh;
+    height: 135vh;
 
     .discoverBox1,
     .discoverBox2 {
-        height: 50%;
+        // height: 50%;
         display: flex;
         width: 100%;
+        flex-direction: column;
 
         button {
             background-color: $tertiaryColor;
@@ -16,7 +17,7 @@
         }
 
         div {
-            width: 43.6%;
+            width: 80%;
             // margin: 0 30px;
         }
     }
