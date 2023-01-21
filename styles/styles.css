@@ -383,7 +383,7 @@ header .underTitle h1 {
 
 .contactHeader {
   background-image: url(../under-the-sea-assets/contact-header.jpg);
-  height: 55vh;
+  height: 35vh;
 }
 
 .contactHeader,
@@ -595,24 +595,8 @@ body h2 {
   margin: 7% 6% 0 0;
 }
 
-.blog .blogIntro .commentBox {
-  max-width: 90%;
-  margin: 10px auto;
-}
-.blog .blogIntro .commentBox textarea {
-  width: 90%;
-}
-.blog .blogIntro .commentBox #name,
-.blog .blogIntro .commentBox #email {
-  width: 44.4%;
-  margin: 3% 0;
-}
-
-.commentBox {
-  padding: 50px 0;
-}
-.commentBox #name,
-.commentBox #email {
+#name,
+#email {
   border: none;
   color: white;
   display: inline-block;
@@ -622,45 +606,13 @@ body h2 {
   background-color: transparent;
   margin: 10px auto;
 }
-.commentBox textarea {
+
+textarea {
   display: block;
   width: 40%;
   border: 2px solid #86e0f9;
   background-color: transparent;
   color: white;
-}
-
-.contactSubmit {
-  width: 100%;
-  height: 50px;
-  background-color: #0c1423;
-  color: #fff;
-}
-
-.contactComments {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #0f614e;
-  width: 60%;
-  position: absolute;
-  top: 34%;
-  left: 30%;
-  margin: 0 63px;
-  -webkit-box-shadow: -30px 25px 0px 5px #86e0f9;
-          box-shadow: -30px 25px 0px 5px #86e0f9;
-}
-.contactComments .commentBox textarea {
-  display: inline;
-  width: 100%;
-  border: 2px solid #86e0f9;
-  background-color: transparent;
-  color: white;
-  resize: none;
-  margin-top: 5%;
 }
 
 .ourContact {
@@ -669,17 +621,13 @@ body h2 {
   display: flex;
   -ms-flex-line-pack: center;
       align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
 }
-.ourContact h4 {
-  font-size: 1.4rem;
-  letter-spacing: 0.2rem;
-  margin: 5% auto;
-}
-.ourContact p {
-  margin: 0;
-}
-
-.addressBox {
+.ourContact .addressBox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -691,6 +639,39 @@ body h2 {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 10% 5%;
+}
+.ourContact .addressBox h4 {
+  font-size: 1.4rem;
+  letter-spacing: 0.2rem;
+  margin: 5% auto;
+}
+.ourContact .addressBox p {
+  margin: 0;
+}
+.ourContact .contactComments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #0f614e;
+  width: 97%;
+}
+.ourContact .contactComments .commentBox textarea {
+  display: inline;
+  width: 97%;
+  border: 2px solid #86e0f9;
+  background-color: transparent;
+  color: white;
+  resize: none;
+  margin-top: 5%;
+}
+.ourContact .contactComments .contactSubmit {
+  width: 100%;
+  height: 50px;
+  background-color: #0c1423;
+  color: #fff;
 }
 
 footer {
