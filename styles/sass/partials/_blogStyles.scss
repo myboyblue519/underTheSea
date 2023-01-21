@@ -10,21 +10,19 @@
 
   .blogMain {
     display: flex;
+    flex-direction: column;
   }
 
   header {
-    height: 75vh;
+    height: 45vh;
     position: relative;
 
     .heroImage {
       position: absolute;
-      top: 57.7%;
-      // right: 0;
-      left: 40%;
-      box-shadow: -35px 35px #86e0f9;
-      width: 60%;
-
-
+      left: 10%;
+      top: 55%;
+      width: 90%;
+      box-shadow: -1rem 1rem #86e0f9;
     }
 
     h2 {
@@ -33,10 +31,10 @@
     }
   }
 
-
   .aside {
-    width: 31%;
+    width: 100%;
     position: relative;
+    margin-top: 3rem;
 
     .whaleImage {
       position: absolute;
@@ -56,23 +54,18 @@
       .underArticle {
         width: 90%;
         margin: 0 auto;
+        padding: 1rem;
 
         ul {
           list-style: circle;
         }
       }
     }
-
   }
-
-
 }
 
-
-
-
 .blogIntro {
-  width: 60%;
+  width: 90%;
   margin-top: 3.2%;
   margin-left: 6.9%;
 
@@ -107,9 +100,6 @@
     letter-spacing: 0rem;
     margin: 1.4rem auto;
   }
-
-
-
 
   .commentBox {
     max-width: 60%;
@@ -150,7 +140,6 @@ form {
   }
 }
 
-
 .commentsPics {
   img {
     height: 25%;
@@ -161,6 +150,7 @@ form {
 
   display: flex;
   margin-top: 20px;
+  flex-direction: column;
 }
 
 .faIcons {

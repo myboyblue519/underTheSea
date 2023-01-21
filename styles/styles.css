@@ -90,7 +90,7 @@ h1 {
 
 h2 {
   font-size: 3rem;
-  line-height: 4.5rem;
+  line-height: 3rem;
 }
 
 h3 {
@@ -457,26 +457,31 @@ header .underTitle h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .blog header {
-  height: 75vh;
+  height: 45vh;
   position: relative;
 }
 .blog header .heroImage {
   position: absolute;
-  top: 57.7%;
-  left: 40%;
-  -webkit-box-shadow: -35px 35px #86e0f9;
-          box-shadow: -35px 35px #86e0f9;
-  width: 60%;
+  left: 10%;
+  top: 55%;
+  width: 90%;
+  -webkit-box-shadow: -1rem 1rem #86e0f9;
+          box-shadow: -1rem 1rem #86e0f9;
 }
 .blog header h2 {
   font-size: 2.5rem;
   margin: 10% 12% 0 0px;
 }
 .blog .aside {
-  width: 31%;
+  width: 100%;
   position: relative;
+  margin-top: 3rem;
 }
 .blog .aside .whaleImage {
   position: absolute;
@@ -495,13 +500,14 @@ header .underTitle h1 {
 .blog .aside .asideBox .underArticle {
   width: 90%;
   margin: 0 auto;
+  padding: 1rem;
 }
 .blog .aside .asideBox .underArticle ul {
   list-style: circle;
 }
 
 .blogIntro {
-  width: 60%;
+  width: 90%;
   margin-top: 3.2%;
   margin-left: 6.9%;
 }
@@ -566,6 +572,10 @@ form button {
   display: -ms-flexbox;
   display: flex;
   margin-top: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .commentsPics img {
   height: 25%;
