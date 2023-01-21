@@ -465,12 +465,13 @@ header .underTitle h1 {
 .blog header {
   height: 45vh;
   position: relative;
+  margin-bottom: 0.5rem;
 }
 .blog header .heroImage {
   position: absolute;
-  left: 10%;
-  top: 55%;
-  width: 90%;
+  left: 12%;
+  top: 351%;
+  width: 80%;
   -webkit-box-shadow: -1rem 1rem #86e0f9;
           box-shadow: -1rem 1rem #86e0f9;
 }
@@ -481,11 +482,10 @@ header .underTitle h1 {
 .blog .aside {
   width: 100%;
   position: relative;
-  margin-top: 3rem;
 }
 .blog .aside .whaleImage {
   position: absolute;
-  top: 9%;
+  top: 6%;
   left: 0%;
   width: 100%;
 }
@@ -494,7 +494,7 @@ header .underTitle h1 {
   margin-left: 17%;
   height: 25%;
   margin-top: 40%;
-  padding-top: 75%;
+  padding-top: 45%;
   background-color: #0f614e;
 }
 .blog .aside .asideBox .underArticle {
@@ -515,7 +515,7 @@ header .underTitle h1 {
   border-bottom: 5px solid #86e0f9;
   border-left: 5px solid #86e0f9;
   margin-left: -0.2%;
-  margin-top: 41%;
+  margin-top: 82%;
 }
 .blogIntro .explaination .discoverSpeciesDate {
   margin: 55px 35px;
@@ -687,10 +687,34 @@ footer p {
   header .underTitle h1 {
     font-size: 4.8rem;
   }
+  .blog header .heroImage {
+    left: 11%;
+    top: 347%;
+    width: 83%;
+  }
 }
 @media (min-width: 540px) {
   header .underTitle h1 {
     font-size: 5.4rem;
+  }
+  .blog header .heroImage {
+    left: 10%;
+    top: 371%;
+  }
+}
+@media (min-width: 640px) {
+  header .underTitle h1 {
+    font-size: 5.4rem;
+  }
+  .blog header .heroImage {
+    left: 9.9%;
+    top: 397%;
+  }
+}
+@media (min-width: 740px) {
+  .blog header .heroImage {
+    left: 9.4%;
+    top: 415%;
   }
 }
 @media (min-width: 840px) {
@@ -709,18 +733,85 @@ footer p {
   html {
     font-size: 100%;
   }
+  .blog .blogMain {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .blog header .heroImage {
+    left: 50%;
+    top: 65%;
+    width: 50%;
+  }
+  .blog .aside {
+    width: 70%;
+  }
+  .blog .aside .whaleImage {
+    top: 1%;
+  }
+  .blog .aside .asideBox {
+    margin-top: 12%;
+    padding-top: 70%;
+  }
+  .blogIntro .species {
+    margin-left: 0.8%;
+    margin-top: 29.8%;
+  }
+}
+@media (min-width: 950px) {
+  .blogIntro {
+    width: 100%;
+  }
+  .blog header .heroImage {
+    left: 47%;
+    top: 54%;
+    width: 53%;
+  }
+  .blogIntro .species {
+    margin-left: 0.3%;
+    margin-top: 27.1%;
+  }
+}
+@media (min-width: 1010px) {
+  .blog header {
+    height: 50vh;
+  }
 }
 @media (min-width: 1100px) {
   html {
     font-size: 110%;
+  }
+  .blog header {
+    height: 60vh;
+  }
+  .blogIntro .species {
+    margin-top: 25%;
+  }
+}
+@media (min-width: 1240px) {
+  .blogIntro .species {
+    margin-left: -0.3%;
+    margin-top: 27.1%;
+  }
+  .blog header .heroImage {
+    left: 43%;
+    top: 49.7%;
+    width: 57%;
+  }
+  .blog header {
+    height: 58vh;
+  }
+  .blog .aside {
+    width: 60%;
   }
 }
 @media (min-width: 1300px) {
   html {
     font-size: 120%;
   }
-  .discover {
-    height: 119vh;
+  .blog header {
+    height: 61vh;
   }
 }
 @media (min-width: 1600px) {

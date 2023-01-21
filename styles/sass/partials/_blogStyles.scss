@@ -16,12 +16,16 @@
   header {
     height: 45vh;
     position: relative;
+    margin-bottom: .5rem;
 
     .heroImage {
       position: absolute;
-      left: 10%;
-      top: 55%;
-      width: 90%;
+      left: 12%;
+      top: 351%;
+      width: 80%;
+      // left: 10%;
+      // top: 55%;
+      // width: 90%;
       box-shadow: -1rem 1rem #86e0f9;
     }
 
@@ -34,11 +38,10 @@
   .aside {
     width: 100%;
     position: relative;
-    margin-top: 3rem;
 
     .whaleImage {
       position: absolute;
-      top: 9%;
+      top: 6%;
       left: 0%;
       width: 100%;
     }
@@ -48,7 +51,7 @@
       margin-left: 17%;
       height: 25%;
       margin-top: 40%;
-      padding-top: 75%;
+      padding-top: 45%;
       background-color: $secondaryColor;
 
       .underArticle {
@@ -73,7 +76,8 @@
     border-bottom: 5px solid $primaryColor;
     border-left: 5px solid $primaryColor;
     margin-left: -0.2%;
-    margin-top: 41%;
+    margin-top: 82%;
+    // margin-top: 41%;
   }
 
   .explaination {
