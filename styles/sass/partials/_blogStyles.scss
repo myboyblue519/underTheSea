@@ -14,7 +14,7 @@
   }
 
   header {
-    height: 45vh;
+    height: 80vh;
     position: relative;
     margin-bottom: .5rem;
 
@@ -81,6 +81,8 @@
   }
 
   .explaination {
+    padding-top: 1rem;
+
     .discoverSpeciesDate {
       margin: 55px 35px;
       padding: 0.1rem;
@@ -133,7 +135,7 @@
 
   .blogSubmit {
     width: 90%;
-    height: 50px;
+    height: 2.25rem;
     background-color: $secondaryColor;
   }
 }
