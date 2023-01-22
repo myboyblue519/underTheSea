@@ -170,7 +170,30 @@
     }
 
     .blog header {
-        height: 61vh;
+        height: 65vh;
+    }
+
+    .blogIntro .species {
+        margin-left: -0.5%;
+        margin-top: 25.1%;
+    }
+}
+
+@media (min-width: 1360px) {
+    .blog header .heroImage {
+        box-shadow: -1.2rem 1.2rem #86e0f9;
+        left: 42.9%;
+    }
+
+    // .heroImage {
+    // }
+
+    .blog .aside .asideBox {
+        margin-left: 16%;
+    }
+
+    .blogIntro .species {
+        margin-left: -0.3%;
     }
 }
 
@@ -178,11 +201,114 @@
     html {
         font-size: 135%;
     }
+
+    .blog .aside .asideBox {
+        margin-left: 15%;
+    }
+
+    .blogIntro .species {
+        margin-left: 0%;
+    }
+
+    .heroImage {}
+
+    .blog header .heroImage {
+        box-shadow: -1.75rem 1.75rem #86e0f9;
+        left: 41%;
+        top: 49.7%;
+        width: 60%;
+    }
+
+    .blogIntro .species {
+        margin-left: -3.6%;
+        margin-top: 33%;
+    }
+
+    .blog header {
+        height: 70vh;
+    }
+
+    .blog header .heroImage {
+        left: 41%;
+        width: 60%;
+    }
+
+}
+
+@media (min-width: 1700px) {
+    .blog header {
+        height: 75vh;
+
+        h2 {
+            margin: 12.5% 7.5% 0 0px;
+        }
+    }
+
+    .blog header .heroImage {
+        left: 42%;
+        top: 60.3%;
+    }
+
+    .blogIntro .species {
+        margin-left: -3.4%;
+        margin-top: 39.5%;
+    }
+}
+
+@media (min-width: 1800px) {
+    .blog header {
+        height: 80vh;
+    }
+
+    .blogIntro .species {
+        margin-left: -1%;
+        margin-top: 29.5%;
+    }
+
+    .blog header .heroImage {
+        left: 41%;
+        width: 59%;
+        top: 58.3%;
+
+    }
+
+    .blogIntro .species {
+        margin-left: 1.6%;
+        margin-top: 31.5%;
+    }
+
+    .blog .aside {
+        width: 50%;
+
+        .asideBox {
+            margin-left: 21%;
+            height: 20%;
+            width: 76%;
+            margin-top: 18%;
+            padding-top: 75%;
+        }
+
+        .whaleImage {
+            position: absolute;
+            top: 3%;
+            width: 90%;
+            left: 1%;
+        }
+
+    }
 }
 
 @media (min-width: 1900px) {
     html {
         font-size: 150%;
+    }
+
+    .blogIntro .species {
+        margin-left: -5.1%;
+    }
+
+    .blog header .heroImage {
+        left: 39%;
     }
 }
 
