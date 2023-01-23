@@ -10,11 +10,14 @@
         }
     }
 
-    .blog header .heroImage {
-        left: 11%;
-        top: 347%;
-        width: 83%;
+    // .indexMain h2 {
+    //     margin: 24% 6% 0 0;
+    //     font-size: 1.1rem;
+    // }
+    .indexMain .whatIsUnder {
+        margin-top: 6rem;
     }
+
 }
 
 @media (min-width: 540px) {
@@ -26,21 +29,8 @@
         }
     }
 
-    .blog header .heroImage {
-        left: 10%;
-        top: 371%;
-    }
-
-    .blog .aside {
-        .asideBox {
-            width: 75%;
-            margin-top: 40%;
-        }
-
-        .whaleImage {
-            top: 11%;
-            width: 90%;
-        }
+    .indexMain .whatIsUnder {
+        margin-top: 12rem;
     }
 }
 
@@ -53,16 +43,20 @@
         }
     }
 
-    .blog header .heroImage {
-        left: 9.9%;
-        top: 397%;
+    .discover {
+        height: 155vh;
+
+        img {
+            width: 80%;
+        }
     }
+
 }
 
 @media (min-width: 720px) {
     .blog header .heroImage {
         left: 9.4%;
-        top: 415%;
+        top: 320%;
     }
 }
 
@@ -87,39 +81,14 @@
         font-size: 100%;
     }
 
-    .blog .blogMain {
-        flex-direction: row;
-    }
+    .indexMain {
+        height: 60vh;
 
-    .blog header {
-        h2 {
-            margin: 16% -13% 0 0px;
-        }
-
-        .heroImage {
-            left: 50%;
-            top: 65%;
-            width: 50%;
+        .whatIsUnder {
+            margin-top: 0rem;
         }
     }
 
-    .blog .aside {
-        width: 70%;
-    }
-
-    .blog .aside .whaleImage {
-        top: 1%;
-    }
-
-    .blog .aside .asideBox {
-        margin-top: 12%;
-        padding-top: 70%;
-    }
-
-    .blogIntro .species {
-        margin-left: 0.8%;
-        margin-top: 18.8%;
-    }
 }
 
 @media (min-width: 950px) {
@@ -135,7 +104,7 @@
 
     .blogIntro .species {
         margin-left: 0.3%;
-        margin-top: 27.1%;
+        margin-top: 10%;
     }
 
     .blog .aside .asideBox {
@@ -266,12 +235,9 @@
         margin-left: 15%;
     }
 
-    .blogIntro .species {
-        margin-left: 0%;
-    }
 
     .blogIntro .species {
-        margin-left: -3.6%;
+        margin-left: -5.4%;
         margin-top: 33%;
     }
 
@@ -296,7 +262,7 @@
         // height: 75vh;
 
         h2 {
-            margin: 12.5% 7.5% 0 0px;
+            margin: 11.9% 7.5% 0 0px;
         }
     }
 
@@ -313,45 +279,42 @@
 
 @media (min-width: 1800px) {
     .blog header {
-        // height: 80vh;
+        h2 {
+            margin: 11.9% 7.5% 0 0px;
+        }
+
+        .heroImage {
+            left: 39%;
+            width: 61%;
+            top: 61.3%;
+        }
+
+        .aside {
+            width: 50%;
+
+            .asideBox {
+                margin-left: 21%;
+                height: 22%;
+                width: 72%;
+                margin-top: 18%;
+                padding-top: 75%;
+            }
+
+            .whaleImage {
+                position: absolute;
+                top: 3%;
+                width: 90%;
+                left: 0%;
+            }
+
+        }
     }
 
     .blogIntro .species {
-        margin-left: -1%;
-        margin-top: 29.5%;
+        margin-left: -8.6%;
+        margin-top: 41.5%;
     }
 
-    .blog header .heroImage {
-        left: 41%;
-        width: 59%;
-        top: 58.3%;
-
-    }
-
-    .blogIntro .species {
-        margin-left: 1.6%;
-        margin-top: 31.5%;
-    }
-
-    .blog .aside {
-        width: 50%;
-
-        .asideBox {
-            margin-left: 21%;
-            height: 22%;
-            width: 72%;
-            margin-top: 18%;
-            padding-top: 75%;
-        }
-
-        .whaleImage {
-            position: absolute;
-            top: 3%;
-            width: 90%;
-            left: 0%;
-        }
-
-    }
 }
 
 @media (min-width: 1900px) {
@@ -359,12 +322,16 @@
         font-size: 150%;
     }
 
-    .blogIntro .species {
-        margin-left: -5.1%;
-    }
 
-    .blog header .heroImage {
-        left: 39%;
+
+    .blog header {
+        .heroImage {
+            left: 39%;
+        }
+
+        h2 {
+            margin: 10.9% 13.5% 0 0px;
+        }
     }
 }
 

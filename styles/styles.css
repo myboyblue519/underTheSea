@@ -108,7 +108,7 @@ p {
 }
 
 .indexMain {
-  height: 100vh;
+  height: 110vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -140,7 +140,7 @@ p {
 }
 
 .discover {
-  height: 135vh;
+  height: 175vh;
 }
 .discover .discoverBox1,
 .discover .discoverBox2 {
@@ -220,7 +220,7 @@ p {
 }
 
 .connectionsSub {
-  height: 225vh;
+  height: 180vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -241,7 +241,7 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 40%;
+  width: 90%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -268,7 +268,7 @@ p {
 }
 
 .monthProfile {
-  height: 70vh;
+  height: 100vh;
 }
 .monthProfile .profileContainer {
   display: -webkit-box;
@@ -300,7 +300,7 @@ p {
 }
 .monthProfile .profileContainer .monthFish .fishSchool {
   position: absolute;
-  top: -12rem;
+  top: -13rem;
   left: -4rem;
   -webkit-box-shadow: 1rem 1rem #86e0f9;
           box-shadow: 1rem 1rem #86e0f9;
@@ -350,10 +350,14 @@ p {
           justify-content: center;
   -ms-flex-item-align: center;
       align-self: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .gallery .galleryBoxImg {
-  margin: auto 1.5%;
-  width: 100%;
+  margin: 1.5% auto;
+  width: 60%;
 }
 .gallery .galleryBoxImg img {
   width: 100%;
@@ -470,7 +474,7 @@ header .underTitle h1 {
 .blog header .heroImage {
   position: absolute;
   left: 12%;
-  top: 351%;
+  top: 267%;
   width: 80%;
   -webkit-box-shadow: -1rem 1rem #86e0f9;
           box-shadow: -1rem 1rem #86e0f9;
@@ -591,6 +595,242 @@ form button {
   font-size: 0.8rem;
 }
 
+@media (min-width: 460px) {
+  .blog header .heroImage {
+    left: 11%;
+  }
+}
+@media (min-width: 540px) {
+  .blog header .heroImage {
+    left: 10%;
+    top: 281%;
+  }
+  .blog .aside .asideBox {
+    width: 75%;
+    margin-top: 40%;
+  }
+  .blog .aside .whaleImage {
+    top: 11%;
+    width: 90%;
+  }
+}
+@media (min-width: 640px) {
+  .blog header .heroImage {
+    left: 9.9%;
+    top: 295%;
+  }
+}
+@media (min-width: 720px) {
+  .blog header .heroImage {
+    left: 9.4%;
+    top: 320%;
+  }
+}
+@media (min-width: 790px) {
+  .blog .blogMain {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .blog header h2 {
+    margin: 16% -13% 0 0px;
+  }
+  .blog header .heroImage {
+    left: 50%;
+    top: 65%;
+    width: 50%;
+  }
+  .blog .aside {
+    width: 70%;
+  }
+  .blog .aside .whaleImage {
+    top: 1%;
+  }
+  .blog .aside .asideBox {
+    margin-top: 12%;
+    padding-top: 70%;
+  }
+  .blogIntro .species {
+    margin-left: 0.8%;
+    margin-top: 0%;
+  }
+}
+@media (min-width: 950px) {
+  .blogIntro {
+    width: 100%;
+  }
+  .blog header .heroImage {
+    left: 47%;
+    top: 67%;
+    width: 53%;
+  }
+  .blogIntro .species {
+    margin-left: 0.3%;
+    margin-top: 10%;
+  }
+  .blog .aside .asideBox {
+    margin-top: 12%;
+    padding-top: 70%;
+  }
+}
+@media (min-width: 1010px) {
+  .blog .aside .asideBox {
+    margin-top: 30%;
+    padding-top: 70%;
+    height: 20%;
+  }
+  .blog .aside .whaleImage {
+    top: 4%;
+  }
+}
+@media (min-width: 1100px) {
+  .blog header h2 {
+    margin: 18% -6% 0 0px;
+  }
+  .blogIntro .species {
+    margin-top: 25%;
+  }
+}
+@media (min-width: 1240px) {
+  .blogIntro .species {
+    margin-top: 35.1%;
+    margin-left: -2.1%;
+  }
+  .blog .aside {
+    width: 60%;
+  }
+  .blog header .heroImage {
+    left: 43%;
+    top: 70%;
+    width: 57%;
+    -webkit-box-shadow: -1.75rem 1.75rem #86e0f9;
+            box-shadow: -1.75rem 1.75rem #86e0f9;
+  }
+}
+@media (min-width: 1300px) {
+  .blog .aside .asideBox {
+    height: 22%;
+  }
+  .blogIntro .species {
+    margin-top: 33.1%;
+    margin-left: -2.5%;
+  }
+}
+@media (min-width: 1360px) {
+  .blogIntro .species {
+    margin-top: 33.1%;
+    margin-left: -2.2%;
+  }
+  .blog .aside .asideBox {
+    margin-top: 26%;
+    padding-top: 70%;
+    height: 22%;
+  }
+}
+@media (min-width: 1460px) {
+  .blog header h2 {
+    margin: 14% 5% 0 0px;
+  }
+  .blog header .heroImage {
+    left: 42%;
+    top: 62%;
+    width: 58%;
+  }
+  .blogIntro .species {
+    margin-left: -3.5%;
+  }
+}
+@media (min-width: 1600px) {
+  .blog .aside .asideBox {
+    margin-left: 15%;
+  }
+  .blogIntro .species {
+    margin-left: -5.4%;
+    margin-top: 33%;
+  }
+  .blog header .heroImage {
+    left: 41%;
+    width: 60%;
+    top: 64.7%;
+  }
+  .blog .aside .asideBox {
+    margin-left: 17%;
+    margin-top: 23%;
+  }
+}
+@media (min-width: 1700px) {
+  .blog header h2 {
+    margin: 11.9% 7.5% 0 0px;
+  }
+  .blog header .heroImage {
+    left: 42%;
+    top: 60.3%;
+  }
+  .blogIntro .species {
+    margin-left: -3.4%;
+    margin-top: 39.5%;
+  }
+}
+@media (min-width: 1800px) {
+  .blog header h2 {
+    margin: 11.9% 7.5% 0 0px;
+  }
+  .blog header .heroImage {
+    left: 39%;
+    width: 61%;
+    top: 61.3%;
+  }
+  .blog header .aside {
+    width: 50%;
+  }
+  .blog header .aside .asideBox {
+    margin-left: 21%;
+    height: 22%;
+    width: 72%;
+    margin-top: 18%;
+    padding-top: 75%;
+  }
+  .blog header .aside .whaleImage {
+    position: absolute;
+    top: 3%;
+    width: 90%;
+    left: 0%;
+  }
+  .blogIntro .species {
+    margin-left: -8.6%;
+    margin-top: 41.5%;
+  }
+}
+@media (min-width: 1900px) {
+  .blog header .heroImage {
+    left: 39%;
+  }
+  .blog header h2 {
+    margin: 10.9% 13.5% 0 0px;
+  }
+}
+@media (min-width: 2200px) {
+  .blog header .heroImage {
+    left: 41%;
+    top: 61.4%;
+    width: 60%;
+  }
+  .blogIntro .species {
+    margin-left: 1.6%;
+    margin-top: 36%;
+  }
+  .blog .aside .asideBox {
+    margin-left: 36%;
+    height: 20%;
+    width: 76%;
+    margin-top: 22%;
+    padding-top: 75%;
+  }
+  .blog .aside .whaleImage {
+    width: 110%;
+  }
+}
 body {
   background-color: #0c1423;
 }
@@ -690,42 +930,33 @@ footer p {
   header .underTitle h1 {
     font-size: 4.8rem;
   }
-  .blog header .heroImage {
-    left: 11%;
-    top: 347%;
-    width: 83%;
+  .indexMain .whatIsUnder {
+    margin-top: 6rem;
   }
 }
 @media (min-width: 540px) {
   header .underTitle h1 {
     font-size: 5.4rem;
   }
-  .blog header .heroImage {
-    left: 10%;
-    top: 371%;
-  }
-  .blog .aside .asideBox {
-    width: 75%;
-    margin-top: 40%;
-  }
-  .blog .aside .whaleImage {
-    top: 11%;
-    width: 90%;
+  .indexMain .whatIsUnder {
+    margin-top: 12rem;
   }
 }
 @media (min-width: 640px) {
   header .underTitle h1 {
     font-size: 5.4rem;
   }
-  .blog header .heroImage {
-    left: 9.9%;
-    top: 397%;
+  .discover {
+    height: 155vh;
+  }
+  .discover img {
+    width: 80%;
   }
 }
 @media (min-width: 720px) {
   .blog header .heroImage {
     left: 9.4%;
-    top: 415%;
+    top: 320%;
   }
 }
 @media (min-width: 790px) {
@@ -744,33 +975,11 @@ footer p {
   html {
     font-size: 100%;
   }
-  .blog .blogMain {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+  .indexMain {
+    height: 60vh;
   }
-  .blog header h2 {
-    margin: 16% -13% 0 0px;
-  }
-  .blog header .heroImage {
-    left: 50%;
-    top: 65%;
-    width: 50%;
-  }
-  .blog .aside {
-    width: 70%;
-  }
-  .blog .aside .whaleImage {
-    top: 1%;
-  }
-  .blog .aside .asideBox {
-    margin-top: 12%;
-    padding-top: 70%;
-  }
-  .blogIntro .species {
-    margin-left: 0.8%;
-    margin-top: 18.8%;
+  .indexMain .whatIsUnder {
+    margin-top: 0rem;
   }
 }
 @media (min-width: 950px) {
@@ -784,7 +993,7 @@ footer p {
   }
   .blogIntro .species {
     margin-left: 0.3%;
-    margin-top: 27.1%;
+    margin-top: 10%;
   }
   .blog .aside .asideBox {
     margin-top: 12%;
@@ -872,10 +1081,7 @@ footer p {
     margin-left: 15%;
   }
   .blogIntro .species {
-    margin-left: 0%;
-  }
-  .blogIntro .species {
-    margin-left: -3.6%;
+    margin-left: -5.4%;
     margin-top: 33%;
   }
   .blog header .heroImage {
@@ -890,7 +1096,7 @@ footer p {
 }
 @media (min-width: 1700px) {
   .blog header h2 {
-    margin: 12.5% 7.5% 0 0px;
+    margin: 11.9% 7.5% 0 0px;
   }
   .blog header .heroImage {
     left: 42%;
@@ -902,45 +1108,44 @@ footer p {
   }
 }
 @media (min-width: 1800px) {
-  .blogIntro .species {
-    margin-left: -1%;
-    margin-top: 29.5%;
+  .blog header h2 {
+    margin: 11.9% 7.5% 0 0px;
   }
   .blog header .heroImage {
-    left: 41%;
-    width: 59%;
-    top: 58.3%;
+    left: 39%;
+    width: 61%;
+    top: 61.3%;
   }
-  .blogIntro .species {
-    margin-left: 1.6%;
-    margin-top: 31.5%;
-  }
-  .blog .aside {
+  .blog header .aside {
     width: 50%;
   }
-  .blog .aside .asideBox {
+  .blog header .aside .asideBox {
     margin-left: 21%;
     height: 22%;
     width: 72%;
     margin-top: 18%;
     padding-top: 75%;
   }
-  .blog .aside .whaleImage {
+  .blog header .aside .whaleImage {
     position: absolute;
     top: 3%;
     width: 90%;
     left: 0%;
+  }
+  .blogIntro .species {
+    margin-left: -8.6%;
+    margin-top: 41.5%;
   }
 }
 @media (min-width: 1900px) {
   html {
     font-size: 150%;
   }
-  .blogIntro .species {
-    margin-left: -5.1%;
-  }
   .blog header .heroImage {
     left: 39%;
+  }
+  .blog header h2 {
+    margin: 10.9% 13.5% 0 0px;
   }
 }
 @media (min-width: 2200px) {
