@@ -3,6 +3,8 @@
 
 @media (min-width: 460px) {
     header {
+        height: 110vh;
+
         .underTitle {
             h1 {
                 font-size: 4.8rem;
@@ -10,10 +12,10 @@
         }
     }
 
-    // .indexMain h2 {
-    //     margin: 24% 6% 0 0;
-    //     font-size: 1.1rem;
-    // }
+    .gallery {
+        height: 110vh;
+    }
+
     .indexMain .whatIsUnder {
         margin-top: 6rem;
     }
@@ -22,6 +24,8 @@
 
 @media (min-width: 540px) {
     header {
+        height: 120vh;
+
         .underTitle {
             h1 {
                 font-size: 5.4rem;
@@ -32,15 +36,29 @@
     .indexMain .whatIsUnder {
         margin-top: 12rem;
     }
+
+    .gallery {
+        height: 130vh;
+    }
+
+    .monthText {
+        margin-top: 4rem;
+    }
 }
 
 @media (min-width: 640px) {
     header {
+        height: 120vh;
+
         .underTitle {
             h1 {
                 font-size: 5.4rem;
             }
         }
+    }
+
+    .gallery {
+        height: 145vh;
     }
 
     .discover {
@@ -58,13 +76,27 @@
         left: 9.4%;
         top: 320%;
     }
+
+    .gallery {
+        height: 160vh;
+    }
+
+    .monthProfile {
+        height: 80vh;
+
+        .profileContainer {
+            flex-direction: row;
+        }
+    }
 }
 
 @media (min-width: 790px) {
     header {
+        height: 55vh;
+
         .underTitle {
             h1 {
-                font-size: 7rem;
+                font-size: 6rem;
             }
         }
     }
@@ -89,28 +121,56 @@
         }
     }
 
+    .gallery {
+        height: 60vh;
+
+        .galleryBox {
+            flex-direction: row;
+        }
+
+        .galleryBoxImg {
+            margin: auto 1.5%;
+            width: 60%;
+        }
+    }
+
+    .monthProfile {
+        height: 50vh;
+
+        .profileContainer .monthFish .fishSchool {
+            top: -11rem;
+        }
+
+        .profileContainer .monthText {
+            margin-bottom: 10%;
+        }
+    }
+
 }
 
 @media (min-width: 950px) {
-    .blogIntro {
-        width: 100%;
+    header {
+        height: 65vh;
     }
 
-    .blog header .heroImage {
-        left: 47%;
-        top: 67%;
-        width: 53%;
+    .discover .discoverBox1,
+    .discover .discoverBox2 {
+        flex-direction: row;
     }
 
-    .blogIntro .species {
-        margin-left: 0.3%;
-        margin-top: 10%;
+    .discover {
+        height: 70vh;
     }
 
-    .blog .aside .asideBox {
-        margin-top: 12%;
-        padding-top: 70%;
+    .connectionsSub {
+        height: 80vh;
+        flex-direction: row;
+
+        .connectionsSub__info {
+            width: 40%;
+        }
     }
+
 
 }
 
@@ -133,6 +193,18 @@
 }
 
 @media (min-width: 1100px) {
+    header {
+        height: 75vh;
+    }
+
+    .discover {
+        height: 80vh;
+    }
+
+    .monthProfile {
+        height: 60vh;
+    }
+
     html {
         font-size: 110%;
     }
@@ -153,26 +225,21 @@
 }
 
 @media (min-width: 1240px) {
-    .blogIntro .species {
-        margin-top: 35.1%;
-        margin-left: -2.1%;
+    .banner {
+        background-size: cover;
+        height: 65vh;
     }
 
-    .blog {
-        .aside {
-            width: 60%;
-        }
+    header {
+        height: 85vh;
+    }
 
-        header {
-            // height: 58vh;
+    .discover {
+        height: 85vh;
+    }
 
-            .heroImage {
-                left: 43%;
-                top: 70%;
-                width: 57%;
-                box-shadow: -1.75rem 1.75rem #86e0f9;
-            }
-        }
+    .monthProfile {
+        height: 70vh;
     }
 }
 
@@ -181,48 +248,52 @@
         font-size: 120%;
     }
 
-    .blog header {
-        // height: 65vh;
+    .discover {
+        height: 92vh;
     }
 
-    .blog .aside .asideBox {
-        height: 22%;
+    .indexMain {
+        height: 65vh;
     }
 
-    .blogIntro .species {
-        margin-top: 33.1%;
-        margin-left: -2.5%;
+    .connectionsSub {
+        height: 90vh;
     }
 }
 
 @media (min-width: 1360px) {
-    .blogIntro .species {
-        margin-top: 33.1%;
-        margin-left: -2.2%;
+    .discover {
+        height: 100vh;
     }
 
-    .blog .aside .asideBox {
-        margin-top: 26%;
-        padding-top: 70%;
-        height: 22%;
+    header {
+        height: 90vh;
+
+        .underTitle h1 {
+            font-size: 7rem;
+        }
     }
+
 }
 
 @media (min-width: 1460px) {
-    .blog header h2 {
-        margin: 14% 5% 0 0px;
+    .discover {
+        height: 105vh;
     }
 
-    .blog header .heroImage {
-        left: 42%;
-        top: 62%;
-        width: 58%;
+    .monthProfile {
+        height: 80vh;
+
+        .profileContainer .monthFish .fishSchool {
+            left: 0rem;
+            width: 80%;
+        }
+
     }
 
-    .blogIntro .species {
-        margin-left: -3.5%;
+    header {
+        height: 100vh;
     }
-
 
 }
 
@@ -231,90 +302,41 @@
         font-size: 135%;
     }
 
-    .blog .aside .asideBox {
-        margin-left: 15%;
+    header {
+        height: 110vh;
     }
 
-
-    .blogIntro .species {
-        margin-left: -5.4%;
-        margin-top: 33%;
+    .discover {
+        height: 112vh;
     }
 
-    .blog header {
-        // height: 70vh;
-
-        .heroImage {
-            left: 41%;
-            width: 60%;
-            top: 64.7%;
-        }
+    .monthProfile {
+        height: 80vh;
     }
 
-    .blog .aside .asideBox {
-        margin-left: 17%;
-        margin-top: 23%;
+    .gallery {
+        height: 80vh;
     }
 }
 
 @media (min-width: 1700px) {
-    .blog header {
-        // height: 75vh;
-
-        h2 {
-            margin: 11.9% 7.5% 0 0px;
-        }
+    .discover {
+        height: 120vh;
     }
 
-    .blog header .heroImage {
-        left: 42%;
-        top: 60.3%;
-    }
-
-    .blogIntro .species {
-        margin-left: -3.4%;
-        margin-top: 39.5%;
+    header {
+        height: 115vh;
     }
 }
 
 @media (min-width: 1800px) {
-    .blog header {
-        h2 {
-            margin: 11.9% 7.5% 0 0px;
-        }
-
-        .heroImage {
-            left: 39%;
-            width: 61%;
-            top: 61.3%;
-        }
-
-        .aside {
-            width: 50%;
-
-            .asideBox {
-                margin-left: 21%;
-                height: 22%;
-                width: 72%;
-                margin-top: 18%;
-                padding-top: 75%;
-            }
-
-            .whaleImage {
-                position: absolute;
-                top: 3%;
-                width: 90%;
-                left: 0%;
-            }
-
-        }
+    .connectionsSub {
+        height: 100vh;
     }
 
-    .blogIntro .species {
-        margin-left: -8.6%;
-        margin-top: 41.5%;
+    .indexMain {
+        height: 75vh;
     }
-
 }
 
 @media (min-width: 1900px) {
@@ -322,17 +344,10 @@
         font-size: 150%;
     }
 
-
-
-    .blog header {
-        .heroImage {
-            left: 39%;
-        }
-
-        h2 {
-            margin: 10.9% 13.5% 0 0px;
-        }
+    .discover {
+        height: 133vh;
     }
+
 }
 
 @media (min-width: 2200px) {
